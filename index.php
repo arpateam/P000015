@@ -37,6 +37,28 @@
 </head>
 <body>
 
+    <!-- Pemberitahuan Pop-Up -->
+    <div class="modal fade" id="notification" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bolder text-warning"><i class="fas fa-bell"></i> Pemberitahuan!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/pemberitahuan/pemberitahuan-1-279.jpeg" alt="Informasi Tentang pemberitahuan-1-279" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var test_modal = new bootstrap.Modal(
+            document.getElementById('notification')
+        )
+        test_modal.show()
+    </script>
+    <!-- Pemberitahuan Pop-Up -->
+
     <div class="container-fluid bg-container-fluid p-0">
         <nav class="container-fluid navbar navbar-expand-lg bg-warning-transparent navbar-dark">
             <div class="container px-0 px-sm-2 py-2">
@@ -90,6 +112,45 @@
             </div>
         </header>
     </div>
+
+    <section class="container-fluid py-5">
+        <div class="container px-0 px-sm-2 text-muted">
+            <h1 class="fw-bolder text-warning">FILE DOWNLOAD</h1>
+
+            <table class="table table-striped text-muted mt-4">
+                <thead>
+                    <tr class="bg-warning fs-5 text-light">
+                        <th scope="col" class="text-center px-3">#</th>
+                        <th scope="col">Judul</th>
+                        <th scope="col" class="text-center px-3">File</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="text-center">1</th>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                        <td class="text-center">
+                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-warning"><i class="fas fa-download"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">2</th>
+                        <td>Mauris sit amet sollicitudin lectus. Etiam nec fringilla augue, a gravida lorem.</td>
+                        <td class="text-center">
+                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-warning"><i class="fas fa-download"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">3</th>
+                        <td>Quisque varius massa fringilla, luctus felis eget, dignissim lectus.</td>
+                        <td class="text-center">
+                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-warning"><i class="fas fa-download"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
     <a href="javascript:" id="return-to-top"><i class="fas fa-angle-up"></i></a>
 
