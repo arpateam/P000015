@@ -1,0 +1,11 @@
+TIMELINE PENGERJAAN FRONT-END WEBSITE
+	> 29 Oktober - 3 September 2022 (Meeting Mengenai Rencana Pembuatan Landing Pages)
+	> 5 - 10 September 2022 (Proses Pengumpulan Data Kebutuhan Website)
+	> 12 - 13 September 2022 (Merancang teknologi yang digunakan)
+	> 14 - 16 September 2022 (Membuat Header & Menu)
+	> 17 - 19 September 2022 (Membuat Konten Download & Notifikasi Pop-Up)
+	> 19 - 20 September 2022 (Membuat Footer)
+	> 21 - 24 September 2022 (Melakukan testing website)
+	> 26 - 28 September 2022 (Revisi Perubahan Warna Website)
+	> 29 - 30 September 2022 (Menyerahkan Program Website Ke #ARPATEAM)
+	> Timeline Pembuatan Website
