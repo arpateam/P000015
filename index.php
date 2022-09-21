@@ -152,6 +152,29 @@
         </div>
     </section>
 
+    <footer class="container-fluid bg-warning py-5">
+        <div class="container px-0 px-sm-2 text-success">
+            <div class="row justify-content-between">
+                <div class="col-md-6 col-lg-6 col-xl-5">
+                    <h3 class="mb-3 mb-lg-4 fw-bolder">Informasi Kontak</h3>
+
+                    <h4 class="text-light fw-bolder">Dinas Lingkungan Hidup Kabupaten Bantul</h4>
+                    <p class="text-light">Komplek Kantor Pemda Bantul, Jl. Lkr. Timur Jl. Manding Kidul, Area Sawah, Trirenggo, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55714</p>
+                </div>
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15807.615490373248!2d110.3475779!3d-7.9051107!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x844f1e0d9a14e317!2sDinas%20Lingkungan%20Hidup%20Kabupaten%20Bantul!5e0!3m2!1sid!2sid!4v1646130101980!5m2!1sid!2sid" width="100%" height="225" class="rounded-5" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="container-fluid bg-warning py-4 border-top border-light">
+        <div class="container mt-4 px-0 px-sm-2 text-center text-light">
+            <p>Copyright &copy; 2021 - <?= date('Y') ?> <a href="<?= $base_url ?>" title="Website SIMBERSAMA" class="link-success">SIMBERSAMA</a> Allright Reserved.</p>
+            <span>Dibuat dengan <i class="fa fa-heart heart text-warning"></i> oleh <span class="link-success">#ARPATEAM</span></span>
+        </div>
+    </section>
+
     <a href="javascript:" id="return-to-top"><i class="fas fa-angle-up"></i></a>
 
     <!-- GetButton.io widget -->
