@@ -42,7 +42,7 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title fw-bolder text-warning"><i class="fas fa-bell"></i> Pemberitahuan!</h5>
+                    <h5 class="modal-title fw-bolder text-success"><i class="fas fa-bell"></i> Pemberitahuan!</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -60,7 +60,7 @@
     <!-- Pemberitahuan Pop-Up -->
 
     <div class="container-fluid bg-container-fluid p-0">
-        <nav class="container-fluid navbar navbar-expand-lg bg-warning-transparent navbar-dark">
+        <nav class="container-fluid navbar navbar-expand-lg bg-success-transparent navbar-dark">
             <div class="container px-0 px-sm-2 py-2">
                 <a class="navbar-brand my-auto text-warning" href="/">
                     <h3 class="mb-0 fw-bolder">SIMBERSAMA</h3>
@@ -95,7 +95,7 @@
             </div>
         </nav>
 
-    	<header class="container-fluid bg-warning-transparent">
+        <header class="container-fluid bg-success-transparent">
             <div class="container py-5 px-0 px-sm-2">
                 <div class="row justify-content-between text-center text-lg-start py-4">
                     <div class="col-lg-7 my-auto text-warning">
@@ -115,11 +115,11 @@
 
     <section class="container-fluid py-5">
         <div class="container px-0 px-sm-2 text-muted">
-            <h1 class="fw-bolder text-warning">FILE DOWNLOAD</h1>
+            <h1 class="fw-bolder text-success">FILE DOWNLOAD</h1>
 
             <table class="table table-striped text-muted mt-4">
                 <thead>
-                    <tr class="bg-warning fs-5 text-light">
+                    <tr class="bg-success fs-5 text-light">
                         <th scope="col" class="text-center px-3">#</th>
                         <th scope="col">Judul</th>
                         <th scope="col" class="text-center px-3">File</th>
@@ -130,21 +130,21 @@
                         <th scope="row" class="text-center">1</th>
                         <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
                         <td class="text-center">
-                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-warning"><i class="fas fa-download"></i></a>
+                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-success"><i class="fas fa-download"></i></a>
                         </td>
                     </tr>
                     <tr>
                         <th scope="row" class="text-center">2</th>
                         <td>Mauris sit amet sollicitudin lectus. Etiam nec fringilla augue, a gravida lorem.</td>
                         <td class="text-center">
-                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-warning"><i class="fas fa-download"></i></a>
+                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-success"><i class="fas fa-download"></i></a>
                         </td>
                     </tr>
                     <tr>
                         <th scope="row" class="text-center">3</th>
                         <td>Quisque varius massa fringilla, luctus felis eget, dignissim lectus.</td>
                         <td class="text-center">
-                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-warning"><i class="fas fa-download"></i></a>
+                            <a target="_blank" href="#" title="Download Judul ...." class="btn btn-sm btn-success"><i class="fas fa-download"></i></a>
                         </td>
                     </tr>
                 </tbody>
@@ -152,8 +152,8 @@
         </div>
     </section>
 
-    <footer class="container-fluid bg-warning py-5">
-        <div class="container px-0 px-sm-2 text-success">
+    <footer class="container-fluid bg-success py-5">
+        <div class="container px-0 px-sm-2 text-warning">
             <div class="row justify-content-between">
                 <div class="col-md-6 col-lg-6 col-xl-5">
                     <h3 class="mb-3 mb-lg-4 fw-bolder">Informasi Kontak</h3>
@@ -168,10 +168,10 @@
         </div>
     </footer>
 
-    <section class="container-fluid bg-warning py-4 border-top border-light">
+    <section class="container-fluid bg-success py-4 border-top border-light">
         <div class="container mt-4 px-0 px-sm-2 text-center text-light">
-            <p>Copyright &copy; 2021 - <?= date('Y') ?> <a href="<?= $base_url ?>" title="Website SIMBERSAMA" class="link-success">SIMBERSAMA</a> Allright Reserved.</p>
-            <span>Dibuat dengan <i class="fa fa-heart heart text-warning"></i> oleh <span class="link-success">#ARPATEAM</span></span>
+            <p>Copyright &copy; 2021 - <?= date('Y') ?> <a href="<?= $base_url ?>" title="Website SIMBERSAMA" class="link-warning">SIMBERSAMA</a> Allright Reserved.</p>
+            <span>Dibuat dengan <i class="fa fa-heart heart text-danger"></i> oleh <span class="link-warning">#ARPATEAM</span></span>
         </div>
     </section>
 
